@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
 
     <link rel="icon" href="favicon.PNG" type="image/x-icon">
 
@@ -19,11 +21,13 @@
     <header>
         <nav>
             <ul class="navbar">
-                <li class="logo"><a href="index.html">DAMILOLA BANJO</a></li>
+                <li class="logo"><a href="index.html" data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom"
+                    data-aos-delay="500" data-aos-duration="2000">DAMILOLA BANJO</a></li>
                 <input type="checkbox" id="check">
                 <span class="menu">
-                    <li> <a href="index.html">Home</a></li>
-                    <li><a href="project.html">Projects</a></li>
+                    <li> <a href="index.html" data-aos="flip-up" data-aos-delay="500" data-aos-duration="3000">Home</a></li>
+                    <li><a href="project.html"data-aos="flip-up" data-aos-delay="500" data-aos-duration="3000">Projects</a></li>
                     <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
                 </span>
                 <label for="check" class="open-menu"><i>Menu</i></label>
@@ -34,14 +38,17 @@
 
     <section>
         <div class="omo">
-            <h2>Hello, I'm Banjo Oluwadamilola</h2>
-            <img class="vibe" src="Profile.JPG"  alt="">
+            <h2 data-aos="flip-down" data-aos-delay="500" data-aos-duration="3000">Hello, I'm Banjo Oluwadamilola</h2>
+            <img class="vibe" src="Profile.JPG"  alt="" data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine" data-aos-duration="2000">
         </div>
 
         <div class="text">
-            <h3>Hello there, I am a Freelance Website Developer, an undergraduate of Olabisi Onabanjo University with Computer Science as my discipline. I am a Freelance Website Developer with over 2 years experience in Javascript frameworks, I am here to build a user friendly and functional websites for you and your Organization.</h3>
+            <h3 data-aos="fade-up" data-aos-delay="500" data-aos-duration="2000"
+            >Hello there, I am a Freelance Website Developer, an undergraduate of Olabisi Onabanjo University with Computer Science as my discipline. I am a Freelance Website Developer with over 2 years experience in Javascript frameworks, I am here to build a user friendly and functional websites for you and your Organization.</h3>
 
-            <p>I can turn complex problems into simple, beautiful and intutive designs. I can make your website attractive with clean codes and pixel perfect designs. If you would like to reach out to me, feel free to email me at <span>banjooluwadamilola.ng@gmail.com</span></p>
+            <p data-aos="fade-up" data-aos-delay="500" data-aos-duration="2000">I can turn complex problems into simple, beautiful and intutive designs. I can make your website attractive with clean codes and pixel perfect designs. If you would like to reach out to me, feel free to email me at <span>banjooluwadamilola.ng@gmail.com</span></p>
         </div>
 
         <!-- <div class="Contact">
@@ -50,14 +57,24 @@
             </div> -->
 
             <div class="contact-section">
-                <h1>Contact Me</h1>
+                <h1  data-aos="fade-up" data-aos-delay="500" data-aos-duration="2000">Contact Me</h1>
                 <div class="border"></div>
                 <form  class="contact-form" action="https://formsubmit.co/banjooluwadamilola.ng@gmail.com" method="POST">
-                    <input type="text" class="contact-form-text" name="name" required placeholder="Name">
-                    <input type="email" class="contact-form-text"  name="email" required placeholder="Email">
-                    <input type="text" class="contact-form-text"  name="subject" required placeholder="Subject">
-                    <textarea class="contact-form-text" name="msg" required placeholder="Message"></textarea>
-                    <input type="submit" class="contact-form-btn" value="Send">
+                    <input type="text" class="contact-form-text" name="name" required placeholder="Name" data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom"
+                    data-aos-delay="500" data-aos-duration="2000">
+                    <input type="email" class="contact-form-text"  name="email" required placeholder="Email"data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom"
+                    data-aos-delay="500" data-aos-duration="2000">
+                    <input type="text" class="contact-form-text"  name="subject" required placeholder="Subject" data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom"
+                    data-aos-delay="500" data-aos-duration="2000">
+                    <textarea class="contact-form-text" name="msg" required placeholder="Message" data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom"
+                    data-aos-delay="500" data-aos-duration="2000"></textarea>
+                    <input type="submit" class="contact-form-btn" value="Send" data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom"
+                    data-aos-delay="500" data-aos-duration="2000">
                 </form>
 
             </div>
@@ -66,19 +83,31 @@
 
     <div class="footer">
         <div class="sicon">
-            <a href="https://instagram.com/damiyyo__"><i class="fa-brands fa-instagram"> </i></a>
-            <a href="https://linkedin.com/in/damilola-banjo-587095243"><i class="fa-brands fa-linkedin"> </i></a>
-            <a href="https://twitter.com/damiyyo__"><i class="fa-brands fa-x-twitter"></i></a>
-            <a href="https://github.com/Damiyyoo"><i class="fa-brands fa-github"></i></a>
+            <a href="https://instagram.com/damiyyo__" data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom" data-aos-delay="500" data-aos-duration="2000"><i class="fa-brands fa-instagram"> </i></a>
+            <a href="https://linkedin.com/in/damilola-banjo-587095243" data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom" data-aos-delay="500" data-aos-duration="2000"><i class="fa-brands fa-linkedin"> </i></a>
+            <a href="https://twitter.com/damiyyo__" data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom" data-aos-delay="500" data-aos-duration="2000"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://github.com/Damiyyoo" data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom" data-aos-delay="500" data-aos-duration="2000"><i class="fa-brands fa-github"></i></a>
         </div>
 
         <div class="bottomfooter">
             <a href="#">
-                <i class="fa fa-arrow-up" aria-hidden="true">
+                <i class="fa fa-arrow-up" aria-hidden="true" data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom" data-aos-delay="500" data-aos-duration="1000">
                 </i>
-            <h4>Back to Top</h4></a>
+            <h4 data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom" data-aos-delay="500" data-aos-duration="1000">Back to Top</h4></a>
         </div>
     </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+         AOS.init();
+    </script>
+
 
 </body>
 </html>
